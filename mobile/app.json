@@ -1,0 +1,2 @@
+{ "expo": { "name": "Campus Lost & Found", "slug": "campus-lost-found", "version": "1.0.0", "orientation": "portrait",
+  "plugins": [["expo-image-picker", { "photosPermission": "Allow access to photos to attach an item image." }]] } }

@@ -1,0 +1,12 @@
+const r = require('express').Router();
+const c = require('../controllers/itemController');
+const claims = require('../controllers/claimController');
+const protect = require('../middleware/auth');
+const upload = require('../middleware/upload');
+r.use(protect);
+r.get('/categories', c.categories);
+r.get('/mine', c.mine);
+r.route('/').get(c.list).post(upload.single('image'), c.create);
+r.route('/:id').get(c.getOne).put(upload.single('image'), c.update).delete(c.remove);
+r.route('/:itemId/claims').get(claims.forItem).post(claims.create);
+module.exports = r;
