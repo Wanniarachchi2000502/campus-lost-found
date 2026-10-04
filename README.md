@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Campus Lost & Found
 
 React Native (Expo) -> REST API -> Node.js + Express -> MongoDB Atlas
@@ -35,3 +36,6 @@ React Native (Expo) -> REST API -> Node.js + Express -> MongoDB Atlas
 
 ## Note on image storage
 Multer saves to `backend/uploads`. Render/Railway free tiers use ephemeral disks, so uploads vanish on redeploy. Attach a persistent disk, or switch to Cloudinary/S3 if images must persist.
+=======
+# campus-lost-found
+>>>>>>> 5d26aab8d4bedd99b0ffb7d584984e5a9cf65c0d
