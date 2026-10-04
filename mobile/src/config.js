@@ -1,5 +1,5 @@
 // Set this to your deployed backend (Render/Railway/etc). Never use localhost for the final build.
-export const BASE_URL = 'https://your-backend.onrender.com';
+   export const BASE_URL = 'https://campus-lost-found-production-d2c6.up.railway.app';
 export const API_URL = `${BASE_URL}/api`;
 export const CATEGORIES = ['ID Card', 'Wallet', 'Books', 'Keys', 'USB Drive', 'Headphones', 'Calculator', 'Other'];
 export const C = {
